@@ -1,0 +1,37 @@
+mkdir answers
+
+touch answers.txt
+
+/c/Users/coopg/Github/assignment-1/answers/answers.txt
+
+ls -a
+
+ls ..
+
+rm is dangerous because it can remove files permanently without any way of getting them back without much user interferance.
+
+mkdir results
+
+touch my_script.sh
+nano my_script.sh, copy the code from latte, save and exit
+
+chmod 755 my_script.sh
+
+cd ../assignment-1-main-main/data
+
+wc -w annual_aqi_by_cbsa_2013.csv
+
+for each in folder
+do
+~/Github/assignment-1/answers/my_script.sh *.csv
+done
+
+mkdir unzipped-files
+unzip -d ~/Github/assignment-1/assignment-1-main-main/data/unzipped-files/ annual_aqi_by_county_1980.zip
+the command on the line above was repeated for all .zip files in the directory
+
+rm -r *.zip
+
+cd unzipped-files
+cp annual_aqi_by_county_20**.csv ~/Github/assignment-1/answers/results
+
